@@ -3,7 +3,7 @@ import Toolbar from '../Navigation/Toolbar/Toolbar';
 import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
 import classes from './Layout.module.css'
 const Layout = (props) => {
-    let [showSideDrawer,setShowSideDrawer]=useState(true)
+    let [showSideDrawer,setShowSideDrawer]=useState(false)
     const sideDrawerClosedHandler=()=>{
         setShowSideDrawer(false)
     }
